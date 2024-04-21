@@ -1,0 +1,222 @@
+/* body{
+    background-color: orange;
+} */
+.contain{
+    width: 100%;
+    border: 1px solid rgb(185, 177, 177);
+    border-radius: 10px;
+    box-shadow: 10px 10px #e9e6e6;
+    height: 70vh;
+    background-image: url("./img/background.jpg");
+    background-size: 100% 100%;
+    box-shadow: rgb(92, 75, 75);
+    animation: changeImage 15s linear infinite;
+}
+@keyframes changeImage{ 
+    0%{
+        background-image: url("./img/background.jpg");
+    }
+    25%{
+        background-image: url("./img/background1.jpg");
+    }
+    75%{
+        background-image: url("./img/collageprade.jpg");
+    }
+    100%{
+        background-image: url("./img/background4.jpg");
+    }
+ } 
+.header2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 66px;
+    height: 45px;
+    width: 100%;
+    /* padding: 1px; */
+    background-color: rgb(69, 47, 47);
+    color: rgb(246, 234, 4);
+    border: 1px solid black;
+}
+.header2>.link{
+    padding-top: 17px;
+    
+}
+.link>a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.link>a:hover{
+    color: orange;
+    
+}
+.contain>.info{
+    color: rgb(243, 4, 4);
+    font-size: 28px;
+    font-weight: 700;
+    
+    height: 100px;
+    position: relative;
+    top: 0;
+}
+.purnea{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    position: relative;
+    top: 350px;
+    background-color: rgb(69, 47, 47);
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+    /* font-weight: bold; */
+}
+.purnea>a{
+ color: white;
+ text-decoration: none;
+}
+.bcadepartment{
+    display: flex;
+    flex-direction: column;
+}
+.mb-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    gap: 10px;
+    padding-top: 0px;
+    padding: 10px 12px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(69, 47, 47);
+    /* background-color: rgb(161, 156, 156); */
+}
+.mb-3>.img1>img{
+    width: 100%;
+    margin-right: 10px;
+}
+.mb-3>.img2>img{
+    width: 100%;
+    background-color: aqua;
+}
+.head{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.head>p{
+    color: black;
+    font-size: 28px;
+    padding: 5px;
+    margin: 0px;
+}
+video{
+    width: 50%;
+    justify-content: space-around; 
+    background-color: #f6f6f6;
+}
+.myVideo{
+    padding: 5px 325px;
+}
+video>h2{
+    color: black;
+    font-size: 38px;
+}
+.BcaPurnea{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(69, 47, 47);
+    padding: 10px;
+}
+.head{
+    text-align: center;
+    justify-content:center ;
+    background-color: black;
+    
+}
+.head>p{
+    color: white;
+    font-size: 26px;
+}
+.des>p{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+}
+.p-class{
+    font-size: 26px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+}
+.course>p>.p-class{
+    color: orange;
+}
+p{
+    color: white;
+}
+.syllabus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+}
+.sem{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: orange;
+    flex: 1;
+    height: 200px;
+    text-align: center;
+    padding-top: 20px;
+}
+.sem>p{
+    font-size: 18px;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.label-sem{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    background-color: black;
+}
+.link>.detail{
+    font-size: 18px;
+    color: rgb(238, 255, 1);
+    padding-bottom: 10px;
+}
+.footer{
+    width:100%;
+    height: 40px;
+    background-color: rgb(69, 47, 47);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.footer>.footerone,a{
+    text-decoration: none;
+    color: orange;
+    padding-top: 10px;
+}.text{
+    color:orange;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.course>p{
+    font-size: 18px;
+    margin-top: 0px;
+    padding: 10px;
+}
